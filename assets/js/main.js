@@ -2,7 +2,7 @@
 
 $('#submit').click(function(){
 
-$.post("assets/php/send.php", $(".contact-form").serialize(),  function(response) {   
+$.post("//formspree.io/m17021963@gmail.com", $(".contact-form").serialize(),  function(response) {   
  $('#success').html(response);
 });
 return false;
