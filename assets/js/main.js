@@ -14,7 +14,7 @@ $.ajax({
 	 $('#success').html("Thank you! Your message was sent!");
 	}
 });
-//$(".contact-form").reset();
+$(".contact-form")[0].reset();
 return false;
 
 });
