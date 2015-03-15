@@ -10,11 +10,11 @@ $.ajax({
     method: "POST",
     data: $(".contact-form").serialize(),
     dataType: "json",
-	success: function(response) {
-	 console.log(response);
-	 $('#success').html(response);
+	success: function() {
+	 $('#success').html("Thank you! Your message was sent!");
 	}
 });
+$(".contact-form").reset();
 return false;
 
 });
