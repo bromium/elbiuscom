@@ -12,7 +12,7 @@ $.ajax({
     dataType: "json",
 	success: function() {
 	 $('#success').html("Thank you! Your message was sent!");
-	 $( "#success" ).fadeOut( "slow", function() {
+	 $( "#success" ).fadeOut( 1500, function() {
     // Animation complete.
     $(".contact-form")[0].reset();
   });
